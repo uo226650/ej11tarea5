@@ -1,5 +1,6 @@
 //Tarea 5: Crear un mapa dinámico con Google Maps indicando la posición del usuario
 // TAW y WAVE dan problemas de accesibilidad debido a la naturaleza de los mapas dinámicos de google
+// En algunos navegadores hay que hacer varios intentos hasta que el objeto geolocation devuelve valores
 // AIzaSyC8aUp4J8B-MOmk6mg4A8cSsbE3qzEpB1g (miKey)
 
 // Encapsulamiento de la función initMap como método de la case MapaDinamico
