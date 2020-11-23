@@ -10,6 +10,8 @@ h1{
 #mapa {
     height: 500px;
     width: 100%;
+    border: thin solid #333;
+    margin-top: 2em;
 }
 
 footer {

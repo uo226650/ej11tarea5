@@ -18,8 +18,13 @@ class MapaDinamico{
 
     showMap(){
         var favorito = {lat: Number(this.latitud) , lng: Number(this.longitud)};
-        var mapaFavorito = new google.maps.Map(document.getElementById('mapa'),{zoom: 16,center:favorito});
-        var marcador = new google.maps.Marker({position:favorito,map:mapaFavorito});
+        var mapaFavorito = new google.maps.Map(document.getElementById('mapa'),
+            {zoom: 16,center:favorito}
+            );
+        var marcador = new google.maps.Marker({
+            position:favorito, 
+            title:"Usted está aquí", //Aparece como tooltip sobre el marcador
+            map:mapaFavorito});
     }
 }
 
